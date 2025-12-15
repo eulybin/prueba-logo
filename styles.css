@@ -1,3 +1,76 @@
 body {
     background-color: white;
+    text-align: center;
+    font-family: 'Science Gothic', sans-serif;
+}
+
+#main {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.hero h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-weight: 300;
+}
+
+.cards {
+    background: linear-gradient(90deg, grey, white);
+}
+
+.cards h2 {
+    font-weight: 300;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+#page-content {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.content {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vertical {
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+    height: 100px;
+}
+
+.footer span {
+    font-size: 1.5rem;
+    display: block;
+    margin: 0;
 }
